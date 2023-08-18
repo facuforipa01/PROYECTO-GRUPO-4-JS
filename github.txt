@@ -1,0 +1,27 @@
+U UNTRACKED (SIN SEGUIMIENTO) 1
+A ADDED (ANIADIDO) VERSION TEMPORAL 2
+M MODIFIED (MODIFICADO)
+
+3 ESTADOS 
+
+1 WORKING DIRECTORY - DIRECTORIO DE TRABAJO
+2 STAGE - LIMBO
+3 REPOSITORY - REPOSITORIO
+
+GIT ADD ACAELARCHIVO (PARA PASAR DE WORKING A STAGE)
+GIT ADD . (PARA PASAR DE WORKING A STAGE TODOS LOS ARCHIVOS)
+GIT COMMIT -M "MINIDESCRIPCION" (PARA PASAR DE STAGE AL REPOSITORIO)
+
+GIT LOG (PARA VER EL HISTORIAL DE VERSIONES)
+GIT CHECKOUT ACA EL ID DEL COMMIT ANTERIOR (PARA VOLVER AL ID ANTERIOR)
+GIT CHECKOUT MASTER (PARA VOLVER A DONDE ESTABA)
+
+git branch + nombre de la nueva rama
+gir branch (para ver las ramas existentes)
+git checkout + nombre de la rama a la que me quiero mover
+
+pararse en la rama master y escribir git merge + nombre de la rama a fusionar
+
+por ejemplo, para agregar los cambios de la rama de facu, estando en rama master
+
+git merge facu
