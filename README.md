@@ -1,6 +1,6 @@
 # PROYECTO-GRUPO-4-JS
 
-como clonar
+como clonar repositorios
 
 https://youtu.be/tFr0Vg1q9Eg → Lo explica re facilito
 En resumen, podemos crear una rama estando en la consola de nuestro proyecto compartido.
