@@ -1,14 +1,12 @@
 <main>
     <!DOCTYPE html>
     <html lang="en">
-    
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Funkoshop</title>
         <link rel="stylesheet" href="estilos.css">
     </head>
-    
     <body>
         <header>
             <img src="./multimedia/branding/isotype.svg" alt="icono">
@@ -19,26 +17,31 @@
             <button>LOGIN</button>
             <a href="carrito.html"><button><img src="./multimedia/icons/cart-icon.svg" alt="icono de carrito"></button></a>
         </header>
-    
     <main>
         <section>
-        
+        <h3>
             <form action="index.js" method="GET">
                 <label for="Buscar">BUSCAR:</label>
-                <input type="item o categoría" name="Buscar" id="Buscar">
+                <input type="item o categoría" name="Buscar" id="Buscar" placeholder="Item o categoría">
+                <br>
                 <br>
                 <label for="Orden">ORDENAR POR:</label>
                 <select name="tipo de orden" id="tipo de orden">
                     <option value="Mayor a menor">Mayor a menor</option>
                     <option value="Menor a mayor">Menor a mayor</option>
                     </select>
+                </h3>
             </form>
+        </section>
+        <section>
+            <h3>PRECIO</h3>
+            <input type="number"
+            placeholder="0"> - MAX <input type="number" placeholder="0">
         </section>
         </div>
     </main>
     <section>
-        <ul>
-    <h2>FILTRAR </h2>
+    <h3>FILTRAR </h3>
     <p><form action="index.js" method="GET">
     <input type="checkbox" name="preguntaUno" id="preguntaUno"
     value="NUEVOS">
@@ -52,7 +55,6 @@
     <label for="">FAVORITOS</label>
     </p>
     </section>
-    </ul>
     <ul>
         <li>
             <article>
