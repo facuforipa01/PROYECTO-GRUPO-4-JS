@@ -21,37 +21,43 @@
             <a href="./carrito.html"><img src="./multimedia/icons/cart-icon.svg" alt="icono de carrito"></a>
         </nav>
     </header>
-<main>
-    <article>
-        <p>STAR WARS</p>
-        <h3>BABY YODA BLUEBALL</h3>
-        <form action="">
-            <input type="text" value="1">
-            <div>
-                <button>-</button>
-                <button>+</button>
+<main class="item-main">
+    <article class="item-container">
+        <form action="" class="item-form">
+            <p class="item-categoria">STAR WARS</p>
+            <h3>BABY YODA BLUEBALL</h3>
+            <p class="item-descripcion">Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada.</p>
+            <p class="item-precio">$ 1799,99</p>
+            <div class="item-container-carrito">
+                <input type="text" value="1" class="item-num">
+                <div class="item-container-mas-menos">
+                    <button>-</button>
+                    <button>+</button>
+                </div>
+            <input type="button" value="Agregar al Carrito" class="item-btn-agregar">
             </div>
-            <input type="button" value="Agregar al Carrito">
-        </form>
-        <p><a href="pagos.html">Ver métodos de pago</a> 3 cuotas sin interes</p>
-    </article>
+            
+            <p class="item-p-pago"><a href="pagos.html">Ver métodos de pago</a> <span> - 3 cuotas sin interes</span></p>
+        </form>        
     <picture>
         <img src="./multimedia/star-wars/baby-yoda-1.webp" alt="Figura coleccionable Funkc de la serie Mandalorian">
     </picture>
+    </article>
     <section>
-        <h3>PRODUCTOS RELACIONADOS</h3>
-        <ul>
+        <h3 class="item-relacionados-titulo">PRODUCTOS RELACIONADOS</h3>
+        <ul class="item-container-relacionados">
             <li>
                 <article>
                     <a href="">
-                        <picture>
+                        <picture class="item-container-imagen">
+                            <div class="item-nuevo">NUEVO</div>
                             <img src="./multimedia/star-wars/trooper-1.webp" alt="">
                         </picture>
                         <div>
                             <p>STAR WARS</p>
                             <h3>STORMTROOPER LIGHTSABER</h3>
                             <p>$1799,99</p>
-                            <p>3 cuotas sin interés</p>
+                            <p id="item-relacionados-cuotas">3 cuotas sin interés</p>
                         </div>
                     </a>
                 </article>
@@ -59,14 +65,15 @@
             <li>
                 <article>
                     <a href="">
-                        <picture>
+                        <picture class="item-container-imagen">
+                            <div class="item-nuevo">NUEVO</div>
                             <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="">
                         </picture>
                         <div>
                             <p>POKEMON</p>
                             <h3>PIDGEOTTO</h3>
                             <p>$1799,99</p>
-                            <p>3 cuotas sin interés</p>
+                            <p id="item-relacionados-cuotas">3 cuotas sin interés</p>
                         </div>
                     </a>
                 </article>   
@@ -74,14 +81,15 @@
             <li>
                 <article>
                     <a href="">
-                        <picture>
+                        <picture class="item-container-imagen">
                             <img src="./multimedia/harry-potter/luna-1.webp" alt="">
+                            <div class="item-nuevo">NUEVO</div>
                         </picture>
                         <div>
                             <p>HARRY POTTER</p>
                             <h3>LUNA LOVEGOOD LION MASK</h3>
                             <p>$1799,99</p>
-                            <p>3 cuotas sin interés</p>
+                            <p id="item-relacionados-cuotas">3 cuotas sin interés</p>
                         </div>
                     </a>
                 </article>
