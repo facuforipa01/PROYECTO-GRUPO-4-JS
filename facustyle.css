@@ -1,0 +1,48 @@
+
+header{
+    background: rgba(48, 52, 63, 1);
+    height: 8em;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content:space-between;
+}
+#brand{
+    color: white;
+    
+}
+body{
+height: 100vh;
+background-color: bisque;
+margin: 0%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buscador{
+    justify-content: space-around;
+}
+main{
+    padding: 10%;
+}
+table tr th{
+    padding: 10%;
+    margin: 10%;
+}
+footer{
+    height: 15em;
+    position: sticky;
+    bottom: 0% ;
+    background-color: rgba(48, 52, 63, 1);
+    display: flex;
+    justify-content:space-between;
+}
+div{
+    margin: 3%;
+    display: flex;
+
+}
+#pen {
+color: rgba(29, 132, 181, 1);
+}
+#trash {
+    color: rgba(255, 51, 51, 1) ;
+}
