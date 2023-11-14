@@ -82,7 +82,7 @@ footer p {
 
 /* Style temporal de carrito.html */
 
-h1, h2 {
+.carrito-titulo, .carrito-resumen-titulo {
     font-family: 'Raleway', sans-serif;
     color: #111;
     font-size: 46px;
@@ -91,36 +91,36 @@ h1, h2 {
     border-bottom: solid 5px #F24E1E;
 }
 
-h1 {
+.carrito-titulo {
     margin: 128px 0px 44px 110px;
 }
 
-.resumen {
+.carrito-resumen {
     display: flex;
     justify-content: flex-end;
     margin: 52px 110px 0px 0px;
 }
 
-.carritoTabla {
+.carrito-tabla {
     width: 1220px;
     margin: auto;
 }
 
-.carritoTabla tr {
+.carrito-tabla tr {
     background: #FAFAFF;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     padding: 16px;
     margin: 16px 0px 16px 0px;
 }
 
-.carritoItem {
+.carrito-tabla-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 25px;
 }
 
-.encabezado {
+.carrito-tabla-encabezado {
     display: flex;
     justify-content: space-around;
     border-radius: 10px;
@@ -130,7 +130,7 @@ h1 {
     color: #000;
 }
 
-.item {
+.carrito-item {
     width: 410px;
     height: 118px;
     padding: 10px;
@@ -139,30 +139,30 @@ h1 {
     align-items: center;
 }
 
-.item img {
+.carrito-item img {
     height: 100%;
     margin-right: 18px;
 }
 
-.tituloItem {
+.carrito-item-titulo {
     font-size: 24px;
     font-weight: 700;
     color: #111111;
 }
 
-.coleccionItem {
+.carrito-item-coleccion {
     font-size: 14px;
     font-weight: 500;
     color: #30343F;
 }
 
-.precioItem {
+.carrito-item-precio {
     font-size: 14px;
     font-weight: 400;
     color: #333333;
 }
 
-td input {
+.carrito-cantidad-input {
     width: 90px;
     height: 40px;
     font-family: 'Inter', sans-serif;
@@ -174,17 +174,17 @@ td input {
     border: 0.5px solid #C9C9C9;
 }
 
-.cantidadCarrito {
+.carrito-tabla-cantidad {
     display: flex;
     align-items: center;  
 }
 
-.botonesCarrito {
+.carrito-cantidad-botones {
     display: flex;
     flex-direction: column;
 }
 
-.botonesCarrito button {
+.carrito-cantidad-botones button {
     width: 18px;
     height: 16px;
     background-color: #F24E1E;
@@ -193,13 +193,13 @@ td input {
     margin: 2px 0px 2px 0px;
 }
 
-.precio {
+.carrito-tabla-precio {
     font-size: 20px;
     font-weight: 400;
     color: #333333;
 }
 
-.listaFinal {
+.carrito-resumen-lista {
     width: 572px;
     border-radius: 10px;
     background: #FAFAFF;
@@ -207,31 +207,30 @@ td input {
     padding: 14px 24px 14px 24px;
 }
 
-.listaFinal p {
+.carrito-resumen-lista p {
     margin: 10px 0px 10px 0px;
 }
 
-.listaFinal th {
+.carrito-resumen-lista th {
     font-size: 16px;
     font-weight: 600;
     color: #000;
     text-align: left;
 }
 
-.listaFinal td {
+.carrito-resumen-lista td {
     font-size: 16px;
     font-weight: 700;
     color:  #747474;
     text-align: right;
 }
 
-
-.total p {
+.carrito-resumen-lista-total p {
     font-size: 20px;
     margin-top: solid 5px #F24E1E;
 }
 
-.pagarBoton {
+.carrito-resumen-pagar {
     width: 572px;
     height: 69px;
     background-color: #FF3333;
